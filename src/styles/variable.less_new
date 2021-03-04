@@ -1,0 +1,8 @@
+@primary-color: #275A7C;
+@link-hover-color : tint(#275A7C, 13%);
+@info-color: #ed9c28;
+@success-color: #19be6b;
+@warning-color: #ff9900;
+@error-color: #ed4014;
+
+

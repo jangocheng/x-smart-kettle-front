@@ -1,0 +1,157 @@
+.upload-img-style(){
+  .cropper-content {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 20px;
+    .cropper {
+      width: 350px;
+      height: 300px;
+    }
+    .show-preview {
+      flex: 1;
+      -webkit-flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+      .preview {
+        overflow: hidden;
+        border: 1px solid #cccccc;
+        background: #cccccc;
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .msg {
+    line-height: 2;
+    color: #999999;
+    text-indent: 20px;
+  }
+
+  .footer-btn {
+    margin-top: 30px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    .scope-btn {
+      width: 350px;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      -webkit-justify-content: space-between;
+    }
+    .upload-btn {
+      flex: 1;
+      -webkit-flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: center;
+      -webkit-justify-content: center;
+    }
+    .btn {
+      outline: none;
+      display: inline-block;
+      line-height: 1;
+      white-space: nowrap;
+      cursor: pointer;
+      -webkit-appearance: none;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      outline: 0;
+      margin: 0;
+      -webkit-transition: .1s;
+      transition: .1s;
+      font-weight: 500;
+      padding: 8px 15px;
+      font-size: 12px;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #67c23a;
+      border-color: #67c23a;
+    }
+  }
+
+  .upload-box {
+
+  }
+
+  .defaultImg {
+    position: relative;
+    /*text-align:center;
+    vertical-align: middle;*/
+    .demo-spin-icon-load {
+      animation: ani-demo-spin 1s linear infinite;
+    }
+    img{
+      /*position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 100;
+      transform: translate(-50%, -50%);
+      display: block;*/
+    }
+    .deleteIcon{
+      position: absolute;
+      top:0;
+      right: 0;
+      /*z-index: 90;*/
+      font-weight: bolder;
+      font-size: 20px;
+      background: rgba(0,0,0,0.1);
+      cursor: pointer;
+      color:#000000;
+      display: none;
+    }
+    .deleteBox{
+      position: absolute;
+      bottom:0;
+      font-weight: bolder;
+      font-size: 12px;
+      line-height: 14px;
+      padding: 2px 0px;
+      background: #999999;
+      cursor: pointer;
+      color:#ffffff;
+      display: none;
+      text-align: center;
+    }
+    @keyframes ani-demo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    .demo-spin-col {
+      height: 100px;
+      position: relative;
+      border: 1px solid #eee;
+    }
+    .hidden {
+      display: none;
+    }
+  }
+  .defaultImg:hover{
+    .deleteIcon{
+      display: block;
+    }
+    .deleteBox{
+      display: block;
+    }
+  }
+  .viewImage{
+    text-align: center;
+    img{
+      max-width: 500px;
+    }
+  }
+}

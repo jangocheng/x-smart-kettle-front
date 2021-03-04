@@ -1,0 +1,13 @@
+@import 'view-design/src/styles/index.less';
+@import './styles/components/index.less';
+@import './styles/variable.less';
+
+@menu-dark-title: #030233;
+@menu-dark-active-bg: #030233;
+@layout-sider-background: #030233;
+@table-td-hover-bg: mix(@primary-color,#030233,80%);
+
+//iview的全屏loading效果
+.ivu-spin-large.ivu-spin-fix.ivu-spin-fullscreen{
+  background-color:tiny(255,255,255,0.1)
+}

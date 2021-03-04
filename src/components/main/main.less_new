@@ -1,0 +1,389 @@
+.main{
+  .logo-con{
+    height: 64px;
+    padding: 10px;
+    img{
+      height: 44px;
+      width: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .xtl-table-box .pt-box {
+    background: linear-gradient(45deg, #020031 0, #275A7C 10%);
+  }
+  .ivu-collapse > .ivu-collapse-item.ivu-collapse-item-active > .ivu-collapse-header {
+    border-bottom: 1px solid #dcdee2;
+    background: linear-gradient(45deg, #020031 0, #275A7C 10%);
+  }
+  .ivu-collapse-content {
+    color: #fff;
+    padding: 0 16px;
+    background: linear-gradient(45deg, #020031 0, #275A7C 10%);
+  }
+  .ivu-collapse > .ivu-collapse-item > .ivu-collapse-header {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 16px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: linear-gradient(45deg, #020031 0, #275A7C 10%);
+  }
+  .header-con{
+    background: linear-gradient(45deg, #020031 0, #275A7C 100%);
+    color: #1e88e5;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .main-layout-con{
+    height: 100%;
+    overflow: hidden;
+  }
+  .main-content-con{
+    height: calc(100% - 60px);
+    overflow: hidden;
+  }
+  .tag-nav-wrapper{
+    padding: 0;
+    height:40px;
+    background: linear-gradient(45deg, #020031 0, #275A7C 100%);
+  }
+  .ivu-card {
+    display: block;
+    background: transparent;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .ivu-btn-primary {
+    color: #fff;
+    background-color: #020031;
+    border-color: #020031;
+  }
+  .ivu-card-head p, .ivu-card-head-inner {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .org-tree .ivu-tree .ivu-tree-children .ivu-tree-title:hover {
+    background: none;
+    color: #167c02;
+    font-weight: bold;
+  }
+  .org-tree .ivu-tree .ivu-tree-children .ivu-tree-title-selected {
+    background: none;
+    font-weight: bold;
+    color: #03A9A7;
+  }
+  .ivu-tree-title {
+    display: inline-block;
+    margin: 0;
+    padding: 0 4px;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: top;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .content-wrapper{
+    padding: 18px;
+    height: calc(100% - 80px);
+    overflow: auto;
+    background-color: #030233;
+   }
+  .ivu-page-options-elevator input {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 14px;
+    border: 1px solid #dcdee2;
+    color: #515a6e;
+    background-color: #030233;
+    background-image: none;
+    position: relative;
+    cursor: text;
+    -webkit-transition: border 0.2s ease-in-out, background 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    border-radius: 4px;
+    margin: 0 8px;
+    width: 50px;
+  }
+
+  .ivu-page-prev, .ivu-page-next {
+    background-color: #030233;
+  }
+  .ivu-page-item {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 32px;
+    height: 32px;
+    line-height: 30px;
+    margin-right: 4px;
+    text-align: center;
+    list-style: none;
+    background-color: #030233;
+    /* color: #fff !important; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-family: Arial;
+    font-weight: 500;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    -webkit-transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  .ivu-table-wrapper-with-border {
+    /* border: 1px solid #dcdee2; */
+    /* border-bottom: 0; */
+    /* border-right: 0; */
+  }
+  .ivu-table-wrapper-with-border {
+    /* border: 1px solid #dcdee2; */
+    /* border-bottom: 0; */
+    /* border-right: 0; */
+  }
+  .ivu-table-border th, .ivu-table-border td {
+    border: none;
+    /* border-right: 1px solid #e8eaec; */
+  }
+  .ivu-page-options-elevator {
+    display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+  }
+  .ivu-table {
+    width: inherit;
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    background-color: #275A7C;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ivu-table th {
+    height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: none;
+    background-color: #275A7C;
+    color: #fff;
+  }
+  .ivu-table td {
+    background-color: #275A7C;
+    color: #fff;
+    border: none !important;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .tags-nav .ivu-tag-primary.ivu-tag-dot .ivu-tag-dot-inner {
+     background-color:mix(@primary-color,#030233,10%) !important;
+    font-size:16px;
+  }
+  .ivu-table-stripe .ivu-table-body tr:nth-child(2n) td, .ivu-table-stripe .ivu-table-fixed-body tr:nth-child(2n) td {
+    background-color: mix(@primary-color,#030233,90%);
+  }
+
+  .ivu-form .ivu-form-item-label {
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    font-size: 14px;
+    color: #C1B0AD;
+    line-height: 1;
+    padding: 10px 12px 10px 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .ivu-input-number-input-wrap {
+    overflow: hidden;
+    background-color: #020333;
+    height: 32px;
+  }
+  .ivu-input-number-input {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 7px;
+    text-align: left;
+    outline: 0;
+    -moz-appearance: textfield;
+    color: #fff;
+    background-color: #030233;
+    border: 0;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .ivu-input {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 7px;
+    font-size: 14px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #030233;
+    background-image: none;
+    position: relative;
+    cursor: text;
+    -webkit-transition: border 0.2s ease-in-out, background 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  }
+  .ivu-btn-dashed {
+    color: #fff;
+    background-color: transparent;
+    border-color: #dcdee2;
+    border-style: dashed;
+  }
+  .ivu-table-wrapper-with-border {
+    border: 1px solid #524fdd;
+    border-bottom: 0;
+    border-right: 0;
+  }
+  .ivu-radio-wrapper {
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    margin-right: 8px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .ivu-page-total {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+    color: #fff;
+  }
+
+  .ivu-btn-group:not(.ivu-btn-group-vertical) > .ivu-btn:first-child:not(:last-child) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #275A7C;
+    color: #fff;
+  }
+
+  .ivu-btn-group:not(.ivu-btn-group-vertical) > .ivu-btn:last-child:not(:first-child) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #275A7C;
+    color: #fff;
+  }
+
+  .ivu-spin-fix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(177,230, 230,0.08);
+  }
+
+  // 修改滚动条样式
+  /deep/::-webkit-scrollbar {
+    width: 10px; //竖轴宽度
+    height: 10px; //横轴宽度
+    background-color: #275A7C;
+  }
+
+  /* 滚动槽 */
+  /deep/::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  /deep/::-webkit-scrollbar-thumb {
+    background-color: #030233;
+  }
+  .ivu-select-selection {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    background-color: #030233;
+    border-radius: 4px;
+    border: 1px solid #dcdee2;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .left-sider{
+    .ivu-layout-sider-children{
+      overflow-y: scroll;
+      margin-right: -18px;
+    }
+  }
+}
+.ivu-menu-item > i{
+  margin-right: 12px !important;
+}
+.ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+  margin-right: 8px !important;
+}
+.collased-menu-dropdown{
+  width: 100%;
+  margin: 0;
+  line-height: normal;
+  padding: 7px 0 6px 16px;
+  clear: both;
+  font-size: 12px !important;
+  white-space: nowrap;
+  list-style: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  &:hover{
+    background: tint(@primary-color,30%);
+  }
+  & * {
+    color: #ffffff;
+  }
+  .ivu-menu-item > i{
+    margin-right: 12px !important;
+  }
+  .ivu-menu-submenu > .ivu-menu > .ivu-menu-item > i {
+    margin-right: 8px !important;
+  }
+}
+
+.ivu-select-dropdown.ivu-dropdown-transfer{
+  max-height: 400px;
+}

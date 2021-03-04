@@ -1,0 +1,168 @@
+.xtl-el-table {
+    .el-table{
+        background-color: #FFFFFF;
+        th{
+            background-color: #eaf4f0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+    }
+    .el-table--border th {
+        border-right: 1px solid #e0e0e0;
+    }
+    .el-table--enable-row-hover .el-table__body tr:hover > td {
+        background-color: #FFFFFF;
+    }
+
+    .el-table--enable-row-hover .el-table__body tr:hover > td a {
+        color: @primary-color;
+    }
+    /*.el-table .sum-line-row td {
+      background-color: @table-thead-bg;
+    }*/
+    .el-table td, .el-table th.is-leaf{
+        border-bottom: 1px solid #e0e0e0;
+    }
+    .el-table--border{
+        border: 1px solid #e0e0e0;
+    }
+    .el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed{
+        border-right: 1px solid #e0e0e0;
+    }
+    .table-search {
+
+        .search-col {
+            text-overflow: ellipsis;
+
+            overflow: hidden;
+
+            display: -webkit-box;
+
+            -webkit-line-clamp: 2; /*这个数字是设置要显示省略号的行数*/
+
+            -webkit-box-orient: vertical;
+
+        }
+
+    }
+
+    .ivu-form {
+        .ivu-form-item {
+            display: inline-block;
+            margin: 0;
+            padding-bottom: 10px;
+            .ivu-form-item-content {
+                button {
+                    width: 88px;
+                }
+            }
+        }
+    }
+
+    .xtl-el-table__search {
+        .ivu-form {
+            .ivu-form-item {
+                display: inline-block;
+            }
+        }
+    }
+
+    .xtl-el-table__buttons {
+        display: inline-block;
+        width: 80%;
+        text-align: right;
+
+        .ivu-btn {
+            margin-right: 5px;
+        }
+    }
+
+    .table-option-dropdown {
+        display: inline-block;
+        float: right;
+    }
+
+    .el-table {
+        margin-top: 20px;
+        width: inherit;
+        height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .el-table thead {
+
+    }
+
+    .el-table th {
+        height: 32px;
+        padding: 0;
+        margin: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+    }
+
+    .el-table .cell {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        word-break: break-all;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    .el-table__body-wrapper {
+        .el-table__append-wrapper {
+            .xtl-el-table__add__more {
+                margin: 0 auto;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .xtl-el-table__add__spin {
+                width: 50px;
+                margin: 0 auto;
+                text-align: center;
+                height: 50px;
+                padding: 10px;
+            }
+        }
+
+    }
+
+    .el-table{
+        margin-top: 14px;
+        td{
+            padding: 2px 0px;
+        }
+        th{
+            padding: 2px 0px;
+        }
+        .caret-wrapper{
+            height: 23px;
+            .sort-caret.ascending{
+                top:0px;
+            }
+            .sort-caret.descending{
+                bottom: 0px;
+            }
+        }
+    }
+
+    .el-table__virtual-wrapper .el-table__body {
+        width: 100%;
+    }
+
+    .el-table--fixed__virtual-wrapper {
+        width: auto!important;
+    }
+}
