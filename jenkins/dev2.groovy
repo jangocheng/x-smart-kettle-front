@@ -1,24 +1,24 @@
 def label = "mypod-${UUID.randomUUID().toString()}"
 def project_group = "idmp"
-def project_url = 'git.inspur.com/ecbh/idmp/business/frontend/'
+def project_url = 'git.yaukie.com/ecbh/idmp/business/frontend/'
 def project_name = "idmp-manage-vue"
 def img_name = "idmp-manage-vue"
 def img_container = "idmp_dev"
-def repo_url = "xtl-docker-local.repo.inspur.com";
+def repo_url = "xtl-docker-local.repo.yaukie.com";
 def img_url = ""
 def img_version = "latest"
 def repoUser = 'Xtl'
 def repoPassword = '123456a?'
 //ssh登录远程服务器 （服务器基础环境 docker、Git、node ）
 def remote = [:]
-  remote.name = '10.110.34.27'
-  remote.host = '10.110.34.27'
+  remote.name = 'yaukie'
+  remote.host = 'yaukie'
   remote.user = 'root'
   remote.password = '10Passw0rd'
   remote.allowAnyHosts = true
 podTemplate(cloud: 'kubernetes',namespace: 'Xtldevops',label: label,serviceAccount:'bald-quetzal-ibm-jenkins',
     containers: [
-         containerTemplate(name: 'kubectl', image: 'xtl-docker-local.repo.inspur.com/Xtl/kubectl3435:v2', ttyEnabled: true, command: 'cat', args: '')
+         containerTemplate(name: 'kubectl', image: 'xtl-docker-local.repo.yaukie.com/Xtl/kubectl3435:v2', ttyEnabled: true, command: 'cat', args: '')
          ],imagePullSecrets: ['artifactory-Xtl'],volumes: [
         hostPathVolume ( hostPath: '/var/run/docker.sock', mountPath: '/var/run/docker.sock')
     ])
